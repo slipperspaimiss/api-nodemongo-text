@@ -13,3 +13,4 @@ app.use('/',routes)
 app.post('/stu',mode.create)
 app.get('/stu',mode.findsu)
 module.exports=app;
+//11111111111111111111111111111111
