@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon  ./server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/slipperspaimiss/api-nodemongo-text#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "sf": "^0.2.0"
   }
 }
